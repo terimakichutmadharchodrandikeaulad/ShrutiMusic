@@ -1,16 +1,54 @@
-py-tgcalls
-yt-dlp
-aiohttp
+# === Core ===
+aiofiles
+aiohttp==3.9.5
+asyncio
+beautifulsoup4
+dnspython
+ffmpeg-python
+gitpython
+hachoir
+heroku3
+httpx==0.25.2
+motor
+numpy
+pytz
+pillow==9.5.0
+psutil
+python-dotenv
+pyyaml
+requests
+unidecode
+speedtest-cli
+spotipy
+
+# === Telegram / Bot related ===
+tgcrypto
+telegraph
+pykeyboard
+kurigram==2.1.35
+py-tgcalls==0.9.7
+gTTS
+
+# === Web Framework ===
 flask
 Flask-RESTful
-tgcrypto
-ffmpeg-python
-isodate
-pillow
-psutil
-requests
-python-dotenv
+
+# === Databases ===
 asyncpg
 pymongo
-aiofiles
+
+# === Extra Features ===
+isodate
 gender-guesser
+youtube-search
+youtube-search-python
+git+https://github.com/yt-dlp/yt-dlp.git
+
+# === OpenCV (Render-safe version) ===
+opencv-python-headless
+
+# ===========================================
+# ©️ 2025 Nand Yaduwanshi , aka @NoxxOP
+# 🔗 GitHub : https://github.com/NoxxOP/ShrutiMusic
+# 📢 Telegram Channel : https://t.me/ShrutiBots
+# ===========================================
