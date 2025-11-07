@@ -10,9 +10,6 @@ heroku3
 httpx==0.25.2
 motor
 numpy
-opencv-python-headless
-pytz
 pillow==9.5.0
 psutil
-py-tgcalls==0.9.7
 gTTS
