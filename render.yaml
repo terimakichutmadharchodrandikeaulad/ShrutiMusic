@@ -11,45 +11,45 @@ services:
     autoDeploy: true
 
     envVars:
-      API_ID: 
+      - key: API_ID
         value: 29448785
-      API_HASH: 
+      - key: API_HASH
         value: 599574f6aff0a09ebb76305b58e7e9c2
-      API_KEY:
+      - key: API_KEY
         sync: false
-      BOT_TOKEN:
+      - key: BOT_TOKEN
         sync: false
-      MONGO_DB_URI: 
+      - key: MONGO_DB_URI
         value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
-      OWNER_ID:
+      - key: OWNER_ID
         value: 7574330905
-      OWNER_USERNAME:
+      - key: OWNER_USERNAME
         value: WTF_WhyMeeh
-      BOT_USERNAME:
+      - key: BOT_USERNAME
         value: ShrutixMusicBot
-      UPSTREAM_REPO:
+      - key: UPSTREAM_REPO
         value: https://github.com/NoxxOP/ShrutiMusic
-      STRING_SESSION:
+      - key: STRING_SESSION
         sync: false
-      GIT_TOKEN:
+      - key: GIT_TOKEN
         sync: false
-      HEROKU_API_KEY:
+      - key: HEROKU_API_KEY
         sync: false
-      HEROKU_APP_NAME:
+      - key: HEROKU_APP_NAME
         sync: false
-      LOG_GROUP_ID:
+      - key: LOG_GROUP_ID
         value: -1002321189618
-      SUPPORT_GROUP:
+      - key: SUPPORT_GROUP
         value: https://t.me/ShrutiBotsupport
-      SUPPORT_CHANNEL:
+      - key: SUPPORT_CHANNEL
         value: https://t.me/ShrutiBots
-      INSTAGRAM:
+      - key: INSTAGRAM
         value: https://instagram.com/yaduwanshi_nand
-      YOUTUBE:
+      - key: YOUTUBE
         value: https://youtube.com/@NandEditz
-      GITHUB:
+      - key: GITHUB
         value: https://github.com/NoxxOP
-      DONATE:
+      - key: DONATE
         value: https://t.me/ShrutiBots/91
-      START_IMG_URL:
+      - key: START_IMG_URL
         sync: false
