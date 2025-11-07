@@ -1,42 +1,16 @@
-# Core dependencies
-aiofiles
-aiohttp==3.9.5
-asyncio
-beautifulsoup4
-dnspython
-ffmpeg-python
-gitpython
-hachoir
-heroku3
-httpx==0.25.2
-motor
-numpy
-pillow==9.5.0
-psutil
-pytz
-gTTS
-pyyaml
-requests
-unidecode
-python-dotenv
-
-# Telegram / Bot related
+py-tgcalls
+yt-dlp
+aiohttp
+flask
+Flask-RESTful
 tgcrypto
-telegraph
-pykeyboard
-kurigram==2.1.35
-py-tgcalls==0.9.7
-
-# Media processing (Render-safe)
-opencv-python-headless
-speedtest-cli
-spotipy
-youtube-search
-youtube-search-python
-git+https://github.com/yt-dlp/yt-dlp.git
-
-# ===========================================
-# ©️ 2025 Nand Yaduwanshi , aka @NoxxOP
-# 🔗 GitHub : https://github.com/NoxxOP/ShrutiMusic
-# 📢 Telegram Channel : https://t.me/ShrutiBots
-# ===========================================
+ffmpeg-python
+isodate
+pillow
+psutil
+requests
+python-dotenv
+asyncpg
+pymongo
+aiofiles
+gender-guesser
